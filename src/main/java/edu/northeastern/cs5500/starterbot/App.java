@@ -22,6 +22,7 @@ public class App {
         ProcessBuilder processBuilder = new ProcessBuilder();
         String token = processBuilder.environment().get("BOT_TOKEN");
         return token;
+
     }
 
     public static void main(String[] arg) throws LoginException {
